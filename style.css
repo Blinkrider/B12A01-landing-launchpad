@@ -251,13 +251,13 @@ main {
     flex: 1
 }
 
-.touch-div label{
+.touch-div label {
     display: block;
-font-family: "Inter", sans-serif;
-font-size: 18px;
-font-weight: 500;
-line-height: 120%;
-margin-bottom: 10px;
+    font-family: "Inter", sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 120%;
+    margin-bottom: 10px;
 }
 
 .touch-div [type="text"],
@@ -273,7 +273,8 @@ textarea {
     resize: none;
     outline: none;
 }
-[type="submit"]{
+
+[type="submit"] {
     width: 100%;
     padding: 20px 32px;
     border: 1px solid rgba(214, 221, 237, 1);
@@ -282,9 +283,50 @@ textarea {
     color: white;
     cursor: pointer;
 }
-::placeholder{
+
+::placeholder {
     font-size: 20px;
     font-family: "Inter", sans-serif;
     line-height: 150%;
     color: rgba(0, 0, 0, 0.5);
+}
+
+/* Footer Section */
+footer {
+    padding: 100px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+}
+footer li {
+    list-style: none;
+}
+footer a {
+    text-decoration: none;
+    color: rgba(137, 135, 161, 1);
+    line-height: 150%;
+    font-size: 16px;
+    font-family: "inter", sans-serif;
+    
+}
+footer a:hover{background-color: beige;}
+footer ul{
+    display: flex;
+    gap: 48px;
+    justify-content: center;
+    margin-top: 20px;
+}
+footer h1{ width:530px;
+    text-align: center;
+    letter-spacing: 20px;
+    margin: auto;
+    font-family: "inter", sans-serif;
+    font-size: 100px;
+    color:#4E47FF
+}
+footer p{
+    width: 530px;
+    margin: auto;
+    color: rgba(137, 135, 161, 1);
+    font-size: 16px;
+    line-height: 150%;
+    font-family: "inter", sans-serif;
 }
