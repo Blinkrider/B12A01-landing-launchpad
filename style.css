@@ -304,7 +304,7 @@ footer a {
     color: rgba(137, 135, 161, 1);
     line-height: 150%;
     font-size: 16px;
-    font-family: "inter", sans-serif;
+    font-family: "Inter", sans-serif;
     
 }
 footer a:hover{background-color: beige;}
@@ -318,7 +318,7 @@ footer h1{ width:530px;
     text-align: center;
     letter-spacing: 20px;
     margin: auto;
-    font-family: "inter", sans-serif;
+    font-family: "Inter", sans-serif;
     font-size: 100px;
     color:#4E47FF
 }
@@ -328,5 +328,5 @@ footer p{
     color: rgba(137, 135, 161, 1);
     font-size: 16px;
     line-height: 150%;
-    font-family: "inter", sans-serif;
+    font-family: "Inter", sans-serif;
 }
